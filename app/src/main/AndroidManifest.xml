@@ -1,5 +1,4 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.xposed.miuianesthetist">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
         android:allowBackup="true"
@@ -12,6 +11,6 @@
             android:value="@string/description" />
         <meta-data
             android:name="xposedminversion"
-            android:value="53" />
+            android:value="82" />
     </application>
 </manifest>

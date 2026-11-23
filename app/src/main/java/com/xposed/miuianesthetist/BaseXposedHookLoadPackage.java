@@ -7,7 +7,6 @@ import static com.xposed.miuianesthetist.XposedHelpersWraper.setTAG;
 
 
 public abstract class BaseXposedHookLoadPackage implements IXposedHookLoadPackage, IXposedHookZygoteInit {
-    protected Boolean iib;
     static {
         setTAG("miuianesthetist");
     }
